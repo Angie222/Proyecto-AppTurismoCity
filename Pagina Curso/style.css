@@ -1,0 +1,263 @@
+nav{
+    background: white;
+    position:fixed;
+    z-index: 100;
+    top:0;
+    height: 17%;
+    width:100%;
+}
+ul {
+    list-style-type: none;
+    position: fixed;
+    padding: 0;
+    overflow: hidden;
+    top: 6%;
+    right: 0%;
+}
+li {
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    margin-top: 8%;
+    background-image: url(img/San_Francisco\,_Córdoba\,_ARG.jpg);
+    background-repeat: repeat-x;
+}
+.contenido1{
+    margin-top: 8%;
+    top: 110px;
+    left: 10px;
+    right: 10px;
+    padding: 10px;
+    margin: 0%;
+}
+.contenido3{
+    margin-top: 8%;
+}
+.texto1{
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times;
+    font-weight: bold;
+    font-size: 75px;
+}
+.texto2{
+    position: absolute;
+    color: black;
+    top: 135px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-weight: bold;
+    font-size: 50px;
+}
+.texto3{
+    color: black;
+    top: 135px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 40px;
+}
+.subtitulo1{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 380px;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.grid-container {
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 5px;
+}
+.grid-container1 {
+    margin-top: 180px;
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    justify-content: center;
+    text-align: center;
+}
+.grid-container2{
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    justify-content: center;
+    text-align: center; 
+}
+.grid-container3{
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center; 
+}
+.grid-container4{
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center; 
+}
+.grid-container5{
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center; 
+}
+.grid-container6{
+    display:flex;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px; 
+    grid-gap: 25px;
+    padding: 0px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    justify-content: center;
+    text-align: center; 
+}
+.grid-item2{
+    padding: 50px;
+    line-height: 1.8;
+}
+.grid-item3{
+    padding: 10px;
+    background-color: #ffe599;
+}
+.grid-item4{
+    padding: 10px;
+    background-color: #9eced5;
+}
+.grid-item5{
+    padding: 10px;
+    background-color: #ffe599;
+}
+.h2{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    position: relative;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+.Integrantes{
+    padding: 20px;
+    
+}
+.Copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:  1.875rem;
+}
+.h3 {
+  color: #333333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 300px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+  background-color: #12cbe4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #8b59e7;
+  
+}
+textarea {
+  width: 300px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group {
+  margin-bottom: 10px;
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  margin-bottom: 0%;
+  margin-top: 8%;
+  margin-right: 4%;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  
+}
+.contenido3{
+  background-image: url(img/contenido.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+background-size: 100% 150%;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
